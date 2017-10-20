@@ -6,8 +6,8 @@
 
 ![game](/play.png)
 
-![over](/play.png)
+![over](/game.png)
 
-![Play live.](https://mybreakoutgame.netlify.com/)
+[Play live.](https://mybreakoutgame.netlify.com/)
 
 ---
