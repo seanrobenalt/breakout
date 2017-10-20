@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 40px 0 0 0;
+}
+
+h1 {
+  position: absolute;
+  right: 50vw;
+  color: #0095dd;
+}
+
+footer {
+  position: absolute;
+  bottom: 20px;
+  margin-left: 50px;
+  color: #0095dd;
+}
+#canvas {
+  background-color: #eee;
+  display: block;
+  margin: 0 auto;
+}
