@@ -62,8 +62,15 @@ function draw() {
   drawPaddle();
 
   // prevent ball from leaving canvas
-  if (y + dy > canvas.height - ballRadius || y + dy < ballRadius) {
+  if (y + dy < ballRadius) {
     dy = -dy;
+  } else if (y + dy > canvas.height - ballRadius) {
+    if (x > paddleX && x < paddleX + paddleWidth) {
+      dy = -dy;
+    } else {
+      document.getElementById('game-over').innerHTML = 'Game over. Reloading...';
+      setTimeout(function() {document.location.reload();}, 3000);
+    }
   }
   if (x + dx > canvas.width - ballRadius || x + dx < ballRadius) {
     dx = -dx;

@@ -9,6 +9,14 @@ h1 {
   color: #0095dd;
 }
 
+h2 {
+  position: absolute;
+  right: 50vw;
+  color: #0095dd;
+  font-size: 50px;
+  margin-top: 100px;
+}
+
 footer {
   position: absolute;
   bottom: 20px;
