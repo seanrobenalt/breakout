@@ -114,7 +114,8 @@ function collisionDetection() {
               b.status = 0;
               score += 50;
               if (score == max) {
-                document.getElementById('game-over').innerHTML = 'You won! Reloading...'
+                document.getElementById('game-over').innerHTML = 'You won! Reloading...';
+								setTimeout(function() {document.location.reload();}, 3000);
               }
         }
       }
